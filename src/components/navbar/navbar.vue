@@ -5,7 +5,7 @@
 <template>
   <nav class="navbar navbar-expand bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">畅的</a>
+      <!--<a class="navbar-brand" href="#">畅的</a>-->
       <div class="me-auto">
         <ul class="navbar-nav">
           <li class="nav-item">
