@@ -1,0 +1,39 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/breakpoints";
+
+#home_title{
+  position: relative;
+  .background{
+    background-color: var(--bs-secondary-bg);
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+#serviceSection{
+  .right-text{
+    @include media-breakpoint-up(md) {
+      padding-left: 2rem;
+    }
+  }
+  .left-text{
+    @include media-breakpoint-up(md) {
+      padding-right: 2rem;
+    }
+  }
+}
+
+.card-header-img-box {
+  padding: 0;
+  overflow: hidden;
+  .img-box {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
