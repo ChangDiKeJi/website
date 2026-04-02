@@ -14,11 +14,12 @@ import ContactUs from "@/components/contactUs.vue";
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6 mt-3">
-        <div class="card">
+      <div class="col-md-1 d-none d-md-block d-lg-none"></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+        <div class="card h-100">
           <div class="card-header card-header-img-box">
             <div class="img-box">
-              <!--<img src="@/assets/img/photo-0.jpg" alt="photo" />-->
+              <img src="@/assets/img/photo-0.jpg" alt="photo" />
             </div>
           </div>
           <div class="card-body text-center">
@@ -26,11 +27,12 @@ import ContactUs from "@/components/contactUs.vue";
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 mt-3">
-        <div class="card">
+      <div class="col-md-2 d-none d-md-block d-lg-none"></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+        <div class="card h-100">
           <div class="card-header card-header-img-box">
             <div class="img-box">
-              <!--<img src="@/assets/img/photo-1.jpg" alt="photo" />-->
+              <img src="@/assets/img/photo-1.jpg" alt="photo" />
             </div>
           </div>
           <div class="card-body text-center">
@@ -38,11 +40,13 @@ import ContactUs from "@/components/contactUs.vue";
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 mt-3">
-        <div class="card">
+      <div class="col-md-1 d-none d-md-block d-lg-none"></div>
+      <div class="col-md-1 d-none d-md-block d-lg-none"></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+        <div class="card h-100">
           <div class="card-header card-header-img-box">
             <div class="img-box">
-              <!--<img src="@/assets/img/photo-2.jpg" alt="photo" />-->
+              <img src="@/assets/img/photo-2.jpg" alt="photo" />
             </div>
           </div>
           <div class="card-body text-center">
@@ -50,11 +54,12 @@ import ContactUs from "@/components/contactUs.vue";
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 mt-3">
-        <div class="card">
+      <div class="col-md-2 d-none d-md-block d-lg-none"></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+        <div class="card h-100">
           <div class="card-header card-header-img-box">
             <div class="img-box">
-              <!--<img src="@/assets/img/photo-3.jpg" alt="photo" />-->
+              <img src="@/assets/img/photo-3.jpg" alt="photo" />
             </div>
           </div>
           <div class="card-body text-center">
@@ -74,22 +79,34 @@ import ContactUs from "@/components/contactUs.vue";
       <div class="col-12">
         <div class="row mt-1">
           <div class="right-text col-12 col-md-7 order-1 order-md-2">
-            <h4>用心服务</h4>
-            <p>以匠心致初心，以品质铸信赖。我们深知，真正的服务不止于交付，更在于每一个细节的极致打磨。</p>
+            <div class="d-flex h-100 align-items-center flex-wrap">
+              <div>
+                <h4>用心服务</h4>
+                <p>以匠心致初心，以品质铸信赖。我们深知，真正的服务不止于交付，更在于每一个细节的极致打磨。</p>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-5 order-2 order-md-1">
-            图像
+            <div class="img-box-n1">
+              <img src="@/assets/img/photo-4.jpg" alt="photo" />
+            </div>
           </div>
         </div>
       </div>
       <div class="col-12">
         <div class="row mt-2">
           <div class="left-text col-12 col-md-7">
-            <h4>专业服务</h4>
-            <p>深耕维修领域多年，我们精通从传统家电到现代智能设备的全链路诊断与修复。</p>
+            <div class="d-flex h-100 align-items-center flex-wrap">
+              <div>
+                <h4>专业服务</h4>
+                <p>深耕维修领域多年，我们精通从传统家电到现代智能设备的全链路诊断与修复。</p>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-5">
-            图像
+            <div class="img-box-n1">
+              <img src="@/assets/img/photo-5.jpg" alt="photo" />
+            </div>
           </div>
         </div>
       </div>
