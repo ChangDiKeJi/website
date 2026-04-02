@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import ContactUs from "@/components/contactUs.vue";
 </script>
 
 <template>
@@ -8,13 +8,13 @@
       <h1>荆州畅的科技有限公司</h1>
     </div>
     <div class="w-100 d-flex justify-content-center">
-      <h5>家电、计算机、监控、打印机的维修与维护</h5>
+      <h5 class="text-body-tertiary text-center">家电、计算机、监控、打印机的维修与维护</h5>
     </div>
     <div class="background"></div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-6 mt-3">
+      <div class="col-12 col-md-6 mt-3">
         <div class="card">
           <div class="card-header card-header-img-box">
             <div class="img-box">
@@ -26,7 +26,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 mt-3">
+      <div class="col-12 col-md-6 mt-3">
         <div class="card">
           <div class="card-header card-header-img-box">
             <div class="img-box">
@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 mt-3">
+      <div class="col-12 col-md-6 mt-3">
         <div class="card">
           <div class="card-header card-header-img-box">
             <div class="img-box">
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 mt-3">
+      <div class="col-12 col-md-6 mt-3">
         <div class="card">
           <div class="card-header card-header-img-box">
             <div class="img-box">
@@ -105,11 +105,7 @@
       <div class="col-12">
         <div class="row">
           <div class="col-12 col-md-6 mx-auto">
-            <strong>电话：</strong>
-            <span>xxx</span>
-            <br>
-            <strong>邮箱：</strong>
-            <span>xxx</span>
+            <ContactUs/>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import fs from 'fs';
 import {isDev, isProd, mode} from "./src/ts/env/packMode.node.ts";
 import renderMode from "./src/ts/env/renderMode.node.ts";
 import {createHtmlPlugin} from "vite-plugin-html";
+import {createSvgIconsPlugin} from "vite-plugin-svg-icons";
 
 const distPath=path.resolve(__dirname, 'dist');
 
@@ -15,6 +16,14 @@ export default defineConfig(({}) => {
     return {
         plugins: [
             vue(),
+            createSvgIconsPlugin({
+                iconDirs: [
+                    path.resolve(__dirname, 'src/assets/_svg'),
+                ],
+                symbolId: 'svg-[dir]-[name]',
+                customDomId: '__svg__icons__dom__',
+                //使用示例：<svg width="16" height="16"><use xlink:href="#svg-bsi-telephone"></use></svg>
+            }),
             createHtmlPlugin({
                 minify: true,
             }),
