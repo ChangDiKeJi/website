@@ -3,7 +3,7 @@ import ContactUs from "@/components/contactUs.vue";
 
 const aosDelay=200;
 const aosDuration=800;
-import aos from "@/views/Home/plugin/aos";
+import aos from "@/plugins/aos.ts";
 aos(aosDelay,aosDuration);
 </script>
 
