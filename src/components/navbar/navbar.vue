@@ -23,13 +23,25 @@ watch(
             <router-link :to="{ name: 'home'}"
                          class="nav-link"
                          :class="{'active':(curRouteName=='home')}"
-            >主页</router-link>
+            >畅的科技</router-link>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <router-link :to="{ name: 'maintenanceList'}"
                          class="nav-link"
                          :class="{'active':(curRouteName=='maintenanceList')}"
             >维修项目</router-link>
+          </li>-->
+          <li class="nav-item">
+            <router-link :to="{name: 'home-dqwx'}"
+                         class="nav-link"
+                         :class="{'active':(curRouteName=='home-dqwx')}"
+            >电器维修服务中心</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link :to="{name: 'contactUs'}"
+                         class="nav-link"
+                         :class="{'active':(curRouteName=='contactUs')}"
+            >联系我们</router-link>
           </li>
         </ul>
       </div>

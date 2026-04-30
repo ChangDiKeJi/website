@@ -24,6 +24,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/core": "^14.2.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "marked": "^17.0.4",

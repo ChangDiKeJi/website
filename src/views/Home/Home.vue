@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import ContactUs from "@/components/contactUs.vue";
+import {useTitle} from "@vueuse/core";
+
+useTitle("荆州畅的科技有限公司");
 
 const aosDelay=200;
 const aosDuration=800;
@@ -132,6 +135,7 @@ aos(aosDelay,aosDuration);
         </div>
       </div>
     </div>
+    <div class="pt-5 pb-5"></div>
   </div>
 </template>
 
