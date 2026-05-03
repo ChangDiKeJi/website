@@ -23,6 +23,38 @@ export default [
                 meta:{
                     markdownRelativePath: 'test2.md',
                 },
+            },
+            {
+                path: 'test3',
+                name: 'maintenanceTarget_test3',
+                component: ()=>import('@/views/maintenanceTargetView/maintenanceTargetView.vue'),
+                meta:{
+                    markdownRelativePath: 'test3.md',
+                },
+            },
+            {
+                path: 'test4',
+                name: 'maintenanceTarget_test4',
+                component: ()=>import('@/views/maintenanceTargetView/maintenanceTargetView.vue'),
+                meta:{
+                    markdownRelativePath: 'test4.md',
+                },
+            },
+            {
+                path: 'test5',
+                name: 'maintenanceTarget_test5',
+                component: ()=>import('@/views/maintenanceTargetView/maintenanceTargetView.vue'),
+                meta:{
+                    markdownRelativePath: 'test5.md',
+                },
+            },
+            {
+                path: 'test6',
+                name: 'maintenanceTarget_test6',
+                component: ()=>import('@/views/maintenanceTargetView/maintenanceTargetView.vue'),
+                meta:{
+                    markdownRelativePath: 'test6.md',
+                },
             }
         ],
     }

@@ -17,9 +17,14 @@ const router = createRouter({
     })(),
     routes: [
         {
-            path: '/',
+            path: '/cdkj',
             name: 'home',
             component: ()=>import("@/views/Home/Home.vue"),
+        },
+        {
+            path: '/',
+            name: 'home-dqwx',
+            component: ()=>import("@/views/Home-dqwx/Home-dqwx.vue"),
         },
         {
             path: '/maintenancelist',
@@ -27,6 +32,11 @@ const router = createRouter({
             component: ()=>import('@/views/MaintenanceList/MaintenanceList.vue'),
         },
         ...maintenanceTargetRouter,
+        {
+            path: '/contactus',
+            name: 'contactUs',
+            component: ()=>import("@/views/ContactUs/ContactUs.vue"),
+        }
     ],
 });
 

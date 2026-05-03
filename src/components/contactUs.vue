@@ -18,8 +18,8 @@
         <div class="d-flex justify-content-center align-items-center">
           <div class="email">
             <svg width="32" height="32" class="sg0"><use xlink:href="#svg-bsi-envelope-at"></use></svg>
-            <h5 class="sg1">邮箱</h5>
-            <span class="sg2">xxx</span>
+            <h5 class="sg1">电子邮箱</h5>
+            <span class="sg2">service@changd.cn</span>
           </div>
         </div>
       </div>
