@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {useTitle} from "@vueuse/core";
+import ContactUs from "@/components/contactUs.vue";
 
 useTitle("松滋市畅的电器维修服务中心");
 </script>
@@ -78,7 +79,10 @@ useTitle("松滋市畅的电器维修服务中心");
   </div>
 
   <div class="row text-center mt-2">
-    <h2></h2>
+    <h2>联系方式</h2>
+  </div>
+  <div class="row">
+    <ContactUs/>
   </div>
 </div>
 </template>
