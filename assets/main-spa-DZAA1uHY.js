@@ -1,0 +1,1 @@
+import"./bootstrap.esm-DG46dOEm.js";import{f as e,n as t,t as n}from"./global-color-CnY31x-k.js";function r(){e(t).use(n).mount(`#app`)}export{r as default};
